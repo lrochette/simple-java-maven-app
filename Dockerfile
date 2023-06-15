@@ -1,4 +1,4 @@
-FROM java:8-jdk-alpine
+FROM openjdk:19-jdk-alpine3.16
 COPY target/my-app-1.0-SNAPSHOT.jar /usr/app/
 WORKDIR /usr/app
 EXPOSE 8080
